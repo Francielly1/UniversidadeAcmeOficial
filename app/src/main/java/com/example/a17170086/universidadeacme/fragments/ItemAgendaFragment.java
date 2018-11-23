@@ -16,6 +16,7 @@ public class ItemAgendaFragment extends Fragment {
     int id;
     String titulo, horario, data, descricao;
     TextView txt_t_agenda, txt_d_agenda, txt_dt_agenda, txt_h_agenda;
+    //Button btn_excluir_agenda;
 
     //Pegando os argumentos passados pelo bundle
     public static ItemAgendaFragment newInstance(int id, String titulo, String descricao, String data, String horario){
@@ -52,6 +53,7 @@ public class ItemAgendaFragment extends Fragment {
         txt_d_agenda = v.findViewById(R.id.txt_d_agenda);
         txt_dt_agenda = v.findViewById(R.id.txt_dt_agenda);
         txt_h_agenda = v.findViewById(R.id.txt_h_agenda);
+        //btn_excluir_agenda = v.findViewById(R.id.btn_excluir_agenda);
 
         //Atualizando conteúdo dos campos
         txt_t_agenda.setText(titulo);
