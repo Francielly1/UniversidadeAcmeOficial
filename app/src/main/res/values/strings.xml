@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Universidade ACME</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Francielly Nascimento</string>
+    <string name="nav_header_subtitle">Ver Perfil</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+
+    <string name="URL_BASE">http://10.0.2.2/</string>
+
+    <string name="URL_IMAGENS">http://10.0.2.2/acme/cms/view/img/noticia/</string>
+</resources>

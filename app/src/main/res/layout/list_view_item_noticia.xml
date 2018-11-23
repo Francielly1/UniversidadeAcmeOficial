@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="15dp"
+    >
+
+    <!--Imagem-->
+    <ImageView
+        android:id="@+id/img_item_noticia"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+    />
+
+    <!--android:src="@android:drawable/ic_menu_camera"-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+
+        >
+
+        <TextView
+            android:id="@+id/txt_item_titulo_noticia"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:paddingLeft="5dp"
+            android:text="Salvador e São Paulo mostram importância de PPPs para alavancar transporte público"
+            android:textSize="20dp"
+            android:textStyle="bold"
+
+            />
+
+        <TextView
+            android:id="@+id/txt_item_subtitulo_noticia"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:paddingLeft="5dp"
+            android:textSize="16dp"
+            android:text="Parcerias com setor privado geraram sistemas com alta tecnologia e permitiram investimentos para melhoria do serviço."
+            />
+        
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="25dp" />
+
+        <!--<TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/txt_item_texto_noticia"
+            android:paddingLeft="5dp"
+            android:paddingTop="6dp"
+            android:paddingTop="6dp"
+            android:text="Texto"
+            android:textSize="20dp"
+            />-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+    
+</LinearLayout>

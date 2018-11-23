@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#350533</color>
+    <color name="colorPrimaryDark">#350533</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="roxoEscuro">#350533</color>
+    <color name="roxoClaro">#541C50</color>
+    <color name="cinza">#a5a3a8</color>
+    <color name="preto">#000000</color>
+    <color name="branco">#ffffff</color>
+    <color name="cinza2">#DCDCDC</color>
+</resources>

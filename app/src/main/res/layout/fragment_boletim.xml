@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Boletim"
+        android:layout_gravity="center"
+        android:textSize="22dp"
+        android:textColor="@color/roxoClaro"
+        android:textStyle="bold"
+        android:id="@+id/txt_semestre_lista"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        >
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="6"
+            android:text="Disciplina"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_height="wrap_content"
+            android:text="Nota"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_height="wrap_content"
+            android:text="Faltas"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            />
+    </LinearLayout>
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/list_view_boletim"
+        ></ListView>
+
+</LinearLayout>

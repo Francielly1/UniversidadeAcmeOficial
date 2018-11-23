@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Titulo:"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="titulo..."
+        android:id="@+id/txt_titulo_agenda"
+        android:backgroundTint="@color/roxoClaro"
+        android:textCursorDrawable="@drawable/cursor"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Anotações:"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="anotações..."
+        android:id="@+id/txt_descricao_agenda"
+        android:backgroundTint="@color/roxoClaro"
+        android:textCursorDrawable="@drawable/cursor"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Data:"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="data..."
+        android:id="@+id/txt_data_agenda"
+        android:backgroundTint="@color/roxoClaro"
+        android:textCursorDrawable="@drawable/cursor"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Horário:"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="horário..."
+        android:id="@+id/txt_horario_agenda"
+        android:backgroundTint="@color/roxoClaro"
+        android:textCursorDrawable="@drawable/cursor"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:text="Cadastrar"
+        android:layout_marginTop="20dp"
+        android:id="@+id/btn_salvar"
+        android:backgroundTint="@color/roxoClaro"
+        android:textColor="@color/branco"
+
+        />
+</LinearLayout>
